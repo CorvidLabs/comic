@@ -2,7 +2,7 @@
 
 This is the official website for **The Adventures of Captain Corvid**, an original webcomic from Corvid Labs.
 
-[**Live Site:**](https://corvidlabs.github.io/comic/)
+[**Live Site**](https://corvidlabs.github.io/comic/)
 
 Follow the story of our feathered hero as he battles the evils of software subscriptions and champions a new model of app ownership through the **Nevermore NFT Collection**. The comic serves as a fun, interactive way to understand the mission and vision of the Corvid Labs ecosystem.
 

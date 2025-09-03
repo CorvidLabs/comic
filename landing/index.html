@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Adventures of Captain Corvid</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'VT323', monospace;
+            background-color: #0a0a1a;
+            color: #e0e0e0;
+            background-image:
+                radial-gradient(circle at 20% 20%, rgba(5, 80, 120, 0.3) 0%, transparent 40%),
+                radial-gradient(circle at 80% 70%, rgba(120, 20, 80, 0.3) 0%, transparent 40%);
+        }
+        .font-press-start {
+            font-family: 'Press Start 2P', cursive;
+        }
+        .comic-panel {
+            border: 4px solid #4f4f8f;
+            background-color: rgba(10, 10, 30, 0.8);
+            box-shadow: 0 0 15px rgba(79, 79, 143, 0.7), inset 0 0 10px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .comic-panel:hover {
+            transform: scale(1.02);
+            box-shadow: 0 0 25px rgba(120, 120, 200, 0.9), inset 0 0 15px rgba(0, 0, 0, 0.5);
+        }
+        .text-cyan-glow {
+            text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff;
+        }
+        .text-magenta-glow {
+            text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff;
+        }
+        .speech-bubble {
+            position: relative;
+            background: #e0e0e0;
+            color: #0a0a1a;
+            border-radius: .4em;
+            padding: 1rem;
+            border: 2px solid #4f4f8f;
+        }
+        .speech-bubble:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            width: 0;
+            height: 0;
+            border: 20px solid transparent;
+            border-top-color: #e0e0e0;
+            border-bottom: 0;
+            border-left: 0;
+            margin-left: -10px;
+            margin-bottom: -20px;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <div class="container mx-auto p-4 md:p-8">
+
+        <!-- Header Section -->
+        <header class="text-center mb-12">
+            <h1 class="text-4xl md:text-6xl font-press-start uppercase text-cyan-glow tracking-wider">The Adventures of</h1>
+            <h2 class="text-5xl md:text-8xl font-press-start uppercase text-magenta-glow mt-2">Captain Corvid</h2>
+            <p class="text-xl md:text-2xl mt-4">From Subscription Hostage to Digital Hero!</p>
+        </header>
+        
+        <!-- Main Content -->
+        <main class="space-y-12">
+
+            <!-- Chapter 1 -->
+            <article class="comic-panel p-6 rounded-lg">
+                <h3 class="font-press-start text-3xl text-cyan-glow mb-6 text-center">Chapter 1: The Great Subscription Catastrophe!</h3>
+                <img src="https://storage.googleapis.com/gemini-prod-us-east1-953a/images/f8/b7/f8b789ef5108d4b29406566d214a1a5e.jpg" alt="A stressed raven surrounded by glowing, expensive app subscription icons." class="w-full h-auto rounded-lg border-4 border-fuchsia-500/50 mb-6">
+                <p class="text-2xl leading-relaxed mb-6">
+                    Once upon a time in the digital realm, a brilliant corvid downloaded "just one more productivity app." Before they knew it, they were drowning in a sea of $2.99 here, $9.99 there, and $19.99 monthly everywhere! Our feathered protagonist would sit on their perch each morning, watching their bank account shrink.
+                </p>
+                <div class="flex justify-center my-6">
+                    <div class="speech-bubble max-w-2xl text-center">
+                        <p class="text-2xl font-bold font-press-start">"CAW! Why do I need seventeen different subscriptions just to be productive?!"</p>
+                    </div>
+                </div>
+                 <p class="text-2xl leading-relaxed">
+                    The poor corvid was experiencing what scientists call <span class="font-bold text-magenta-glow">Subscriptus Exhausticus</span> – a modern condition where one's wallet becomes lighter while their phone becomes heavier with unused premium apps.
+                </p>
+            </article>
+
+            <!-- Chapter 2 -->
+             <article class="comic-panel p-6 rounded-lg">
+                <h3 class="font-press-start text-3xl text-cyan-glow mb-6 text-center">Chapter 2: The Birth of a Subscription Superhero!</h3>
+                <img src="https://storage.googleapis.com/gemini-prod-us-east1-953a/images/84/c8/84c8e76be32f518e9576c9a22f309062.jpg" alt="A heroic raven transforming into a superhero with a glowing NFT cape." class="w-full h-auto rounded-lg border-4 border-fuchsia-500/50 mb-6">
+                 <p class="text-2xl leading-relaxed mb-4">
+                    But wait! A glimmering light appears! Captain Corvid discovers something revolutionary – the Nevermore NFT Collection! <span class="text-6xl animate-pulse inline-block align-middle">WHOOSH!</span> Suddenly, our tired corvid transforms into <span class="font-bold text-cyan-glow">Captain Corvid, the Subscription Liberator!</span> With a shiny new NFT cape fluttering in the digital wind, they realize they've discovered the ultimate cheat code: One token unlocks premium features across all Corvid Labs apps, FOREVER!
+                </p>
+                 <ul class="text-2xl space-y-2 list-disc list-inside pl-4">
+                    <li>No more monthly payments!</li>
+                    <li>No more "premium feature locked" notifications!</li>
+                    <li>No more crying into their coffee every time another subscription renews!</li>
+                </ul>
+            </article>
+
+            <!-- Chapter 3 -->
+            <article class="comic-panel p-6 rounded-lg">
+                <h3 class="font-press-start text-3xl text-cyan-glow mb-6 text-center">Chapter 3: The Nevermore Alliance</h3>
+                <img src="https://storage.googleapis.com/gemini-prod-us-east1-953a/images/a8/9f/a89f92e071c50406856515c0e12d5cd8.jpg" alt="Captain Corvid leading a group of digital avatars breaking chains labeled with dollar signs." class="w-full h-auto rounded-lg border-4 border-fuchsia-500/50 mb-6">
+                <p class="text-2xl leading-relaxed">
+                    Captain Corvid, now a beacon of hope, wasn't alone. Word of the subscription liberation spread through the digital ether like a shockwave. A legion of fed-up users, tired of being treated like digital cash cows, rallied to the cause. Together, they formed the <span class="font-bold text-magenta-glow">'Nevermore Alliance,'</span> a decentralized force ready to challenge the subscription titans. Their first mission: to build an open-source, community-owned alternative to the most expensive productivity suite on the market. The revolution had begun...
+                </p>
+                <p class="font-press-start text-2xl text-cyan-glow mt-8 text-center">To be continued...</p>
+            </article>
+
+        </main>
+
+        <!-- Footer -->
+        <footer class="text-center mt-12 py-6 border-t-2 border-dashed border-gray-700">
+            <p class="text-lg">&copy; 2025 Corvid Labs. All Rights Reserved.</p>
+            <p class="text-md mt-1">Join the subscription liberation!</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
+

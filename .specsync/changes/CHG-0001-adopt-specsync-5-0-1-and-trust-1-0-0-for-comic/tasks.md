@@ -5,4 +5,7 @@ artifact: tasks
 
 # Tasks
 
-- [x] Add governance.\n- [x] Install agent integrations.\n- [x] Validate static content.\n- [ ] Obtain owner approvals.
+- [x] Add governance.
+- [x] Install agent integrations.
+- [x] Validate static content.
+- [ ] Obtain owner approvals.

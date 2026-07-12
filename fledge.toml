@@ -1,0 +1,8 @@
+[tasks]
+page = "test -s landing/index.html"
+chapter-1 = "test -s landing/captain-corvid-chapter-1.png"
+chapter-2 = "test -s landing/captain-corvid-chapter-2.png"
+chapter-3 = "test -s landing/captain-corvid-chapter-3.png"
+[lanes.verify]
+description = "Validate the comic page and its deployed chapter assets"
+steps = ["page", "chapter-1", "chapter-2", "chapter-3"]

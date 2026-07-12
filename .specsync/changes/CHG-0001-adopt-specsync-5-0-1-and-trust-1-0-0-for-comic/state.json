@@ -22,10 +22,7 @@
   "no_spec_change": true,
   "no_spec_change_rationale": "Governance and CI only; comic UI, content, assets, links, and deployment are unchanged.",
   "acceptance_criteria": [
-    "Comic page and all deployed chapter assets validate; agents and Trust doctor are healthy; UI",
-    "links",
-    "assets",
-    "and Pages deployment remain unchanged."
+    "Comic page and all deployed chapter assets validate; agents and Trust doctor are healthy; UI, links, assets, and Pages deployment remain unchanged."
   ],
   "selected_artifacts": [
     "context",

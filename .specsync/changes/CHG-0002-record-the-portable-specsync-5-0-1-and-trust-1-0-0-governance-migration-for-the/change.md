@@ -1,6 +1,6 @@
 ---
 id: CHG-0002-record-the-portable-specsync-5-0-1-and-trust-1-0-0-governance-migration-for-the
-state: implementing
+state: accepted
 type: migration
 base_commit: 03d079d8f18667ccba823c578d5edc62b7b47cee
 ---

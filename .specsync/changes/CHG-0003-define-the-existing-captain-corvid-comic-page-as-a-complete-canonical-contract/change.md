@@ -1,6 +1,6 @@
 ---
 id: CHG-0003-define-the-existing-captain-corvid-comic-page-as-a-complete-canonical-contract
-state: implementing
+state: accepted
 type: documentation
 base_commit: 03d079d8f18667ccba823c578d5edc62b7b47cee
 ---

@@ -5,10 +5,11 @@
   "title": "Define the existing Captain Corvid comic page as a complete canonical contract",
   "description": "Define the existing Captain Corvid comic page as a complete canonical contract",
   "kind": "documentation",
-  "state": "implementing",
+  "state": "accepted",
+  "canonical_applied": true,
   "base_commit": "03d079d8f18667ccba823c578d5edc62b7b47cee",
   "created_at": 1784002837,
-  "updated_at": 1784003023,
+  "updated_at": 1784019543,
   "affected_specs": [
     "comic-page"
   ],

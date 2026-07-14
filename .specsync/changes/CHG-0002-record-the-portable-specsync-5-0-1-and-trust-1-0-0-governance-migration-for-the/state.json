@@ -5,10 +5,10 @@
   "title": "Record the portable SpecSync 5.0.1 and Trust 1.0.0 governance migration for the comic repository",
   "description": "Record the portable SpecSync 5.0.1 and Trust 1.0.0 governance migration for the comic repository",
   "kind": "migration",
-  "state": "implementing",
+  "state": "accepted",
   "base_commit": "03d079d8f18667ccba823c578d5edc62b7b47cee",
   "created_at": 1784002823,
-  "updated_at": 1784003022,
+  "updated_at": 1784019298,
   "affected_specs": [],
   "affected_paths": [
     ".attest.json",

@@ -1,6 +1,6 @@
 ---
 module: comic-page
-version: 1
+version: 2
 status: active
 files:
   - landing/index.html
@@ -57,3 +57,4 @@ Given an image cannot be rendered, when assistive technology reads a chapter, th
 | Version | Date | Changes |
 |---|---|---|
 | 1 | 2026-07-13 | Record the existing three-chapter static comic contract without changing deployed content. |
+| 2 | 2026-07-14 | Complete deterministic evidence for the existing comic-page contract and enforce measured HTML coverage. |

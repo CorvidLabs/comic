@@ -1,0 +1,18 @@
+{
+  "approvals": [
+    {
+      "gate": "definition",
+      "actor": "user:0xLeif",
+      "timestamp": 1784003022,
+      "digest": "471582e676670cd3d8049ac0f8174100ee48cf9f11c24abc9851ab1d17b14967",
+      "note": "Definition approved for the migration-only rollout after exact inventory and accurate contract review."
+    },
+    {
+      "gate": "acceptance",
+      "actor": "user:0xLeif",
+      "timestamp": 1784019298,
+      "digest": "5b8aee528910a407e98c13c1de33d5647c57f32da2a2197f99e3c81459bc4b84",
+      "note": "Closing approval after the exact governance path audit, four-agent status, complete native lane, and measured 100 percent HTML contract passed."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "id": "CHG-0001-adopt-specsync-5-0-1-and-trust-1-0-0-for-comic",
+  "slug": "adopt-specsync-5-0-1-and-trust-1-0-0-for-comic",
+  "title": "Adopt SpecSync 5.0.1 and Trust 1.0.0 for Comic",
+  "description": "Adopt SpecSync 5.0.1 and Trust 1.0.0 for Comic",
+  "kind": "migration",
+  "state": "accepted",
+  "base_commit": "151d5b8a075b449556dc58da621cf03a41e6e911",
+  "created_at": 1783886909,
+  "updated_at": 1784019322,
+  "affected_specs": [],
+  "affected_paths": [
+    ".github/",
+    ".specsync/",
+    ".trust.toml",
+    ".augur.toml",
+    ".attest.json",
+    "fledge.toml",
+    "AGENTS.md"
+  ],
+  "no_spec_change": true,
+  "no_spec_change_rationale": "Governance and CI only; comic UI, content, assets, links, and deployment are unchanged.",
+  "acceptance_criteria": [
+    "Comic page and all deployed chapter assets validate; agents and Trust doctor are healthy; UI, links, assets, and Pages deployment remain unchanged."
+  ],
+  "selected_artifacts": [
+    "context",
+    "research",
+    "design",
+    "plan",
+    "tasks",
+    "testing",
+    "docs"
+  ],
+  "dependencies": [],
+  "answers": {
+    "architecture_risk": "yes",
+    "public_contract": "no"
+  }
+}

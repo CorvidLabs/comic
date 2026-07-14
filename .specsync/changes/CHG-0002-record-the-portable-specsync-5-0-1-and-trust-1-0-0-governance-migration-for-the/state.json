@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "id": "CHG-0002-record-the-portable-specsync-5-0-1-and-trust-1-0-0-governance-migration-for-the",
+  "slug": "record-the-portable-specsync-5-0-1-and-trust-1-0-0-governance-migration-for-the",
+  "title": "Record the portable SpecSync 5.0.1 and Trust 1.0.0 governance migration for the comic repository",
+  "description": "Record the portable SpecSync 5.0.1 and Trust 1.0.0 governance migration for the comic repository",
+  "kind": "migration",
+  "state": "accepted",
+  "base_commit": "03d079d8f18667ccba823c578d5edc62b7b47cee",
+  "created_at": 1784002823,
+  "updated_at": 1784019298,
+  "affected_specs": [],
+  "affected_paths": [
+    ".attest.json",
+    ".augur.toml",
+    ".claude/commands/specsync/create-change.md",
+    ".claude/commands/specsync/create-spec.md",
+    ".claude/skills/spec-sync/SKILL.md",
+    ".codex/skills/spec-sync/SKILL.md",
+    ".cursor/commands/specsync-create-change.md",
+    ".cursor/commands/specsync-create-spec.md",
+    ".cursor/skills/spec-sync/SKILL.md",
+    ".gemini/commands/specsync/create-change.toml",
+    ".gemini/commands/specsync/create-spec.toml",
+    ".gemini/skills/spec-sync/SKILL.md",
+    ".github/workflows/trust.yml",
+    ".specsync/adoption-report.json",
+    ".specsync/change.lock",
+    ".specsync/config.toml",
+    ".specsync/registry.toml",
+    ".specsync/sdd.json",
+    ".specsync/version",
+    ".trust.toml",
+    "AGENTS.md",
+    "fledge.toml",
+    ".specsync/change-sequence.json"
+  ],
+  "no_spec_change": true,
+  "no_spec_change_rationale": "This successor records governance, agent integration, and verification configuration only; it does not change the comic page contract or deployed assets.",
+  "acceptance_criteria": [
+    "All migration files are covered by exact paths; all four agent integrations are installed; the native validation lane passes; SpecSync strict coverage is 100%; Trust verification passes without changing landing content or assets"
+  ],
+  "selected_artifacts": [
+    "context",
+    "research",
+    "design",
+    "plan",
+    "tasks",
+    "testing",
+    "docs"
+  ],
+  "dependencies": [],
+  "answers": {
+    "architecture_risk": "yes",
+    "public_contract": "no"
+  }
+}

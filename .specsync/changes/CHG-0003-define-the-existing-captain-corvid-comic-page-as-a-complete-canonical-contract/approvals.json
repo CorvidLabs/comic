@@ -1,0 +1,112 @@
+{
+  "approvals": [
+    {
+      "gate": "definition",
+      "actor": "user:0xLeif",
+      "timestamp": 1784003023,
+      "digest": "61d6c937f81154226ea6dda63a13086b58351e231ca02b84ac285d0681e7506f",
+      "note": "Definition approved for the migration-only rollout after exact inventory and accurate contract review."
+    },
+    {
+      "gate": "acceptance",
+      "actor": "user:0xLeif",
+      "timestamp": 1784019289,
+      "digest": "e8c2d3ee4a9a8b0c6ff8b4bd78291e22d20845aa72e6a0bc0f705b0cb692fc59",
+      "note": "Closing approval after all four requirements received deterministic native evidence and released SpecSync measured 1/1 HTML files and 130/130 LOC."
+    },
+    {
+      "gate": "acceptance",
+      "actor": "user:0xLeif",
+      "timestamp": 1784019467,
+      "digest": "df53e9640e7a993656c4ee8510f5aa792d6a44cdb26de7a6180ddfc433855258",
+      "note": "Fresh closing approval after the non-semantic companion formatting correction and complete native plus measured 100 percent verification passed."
+    },
+    {
+      "gate": "acceptance",
+      "actor": "user:0xLeif",
+      "timestamp": 1784019543,
+      "digest": "cdd6d52cb1c8d0a9ea9e6e82539d2db613985e51f6efe8c3398d245c397d8c7f",
+      "note": "Fresh closing approval after precise acceptance criteria and three-column Change Log formatting were restored and all four requirements passed complete native plus measured coverage verification."
+    }
+  ],
+  "reopenings": [
+    {
+      "schema_version": 1,
+      "change_id": "CHG-0003-define-the-existing-captain-corvid-comic-page-as-a-complete-canonical-contract",
+      "actor": "user:0xLeif",
+      "reason": "A non-semantic review correction removed the extra blank line introduced by delta application at the end of the requirement companion.",
+      "timestamp": 1784019444,
+      "from_state": "accepted",
+      "to_state": "verifying",
+      "superseded_approval": {
+        "gate": "acceptance",
+        "actor": "user:0xLeif",
+        "timestamp": 1784019289,
+        "digest": "e8c2d3ee4a9a8b0c6ff8b4bd78291e22d20845aa72e6a0bc0f705b0cb692fc59",
+        "note": "Closing approval after all four requirements received deterministic native evidence and released SpecSync measured 1/1 HTML files and 130/130 LOC."
+      },
+      "prior_verification": {
+        "timestamp": 1784019279,
+        "commit": "5a4bfbac8d8204fcda27c6ea1bf94e2d21a6d355",
+        "contract_digest": "61d6c937f81154226ea6dda63a13086b58351e231ca02b84ac285d0681e7506f",
+        "workspace_digest": "be59ad244c9e81a5589f1ab1a7b6594b3a3a608ac7c6bf355c002a8190c4602f",
+        "acceptance_input_digest": "6afd39101c13b06cb843f9d596f8ddf4a37f20af94cd88ff48eccbb48076b1c0",
+        "passed": true,
+        "commands": [
+          {
+            "command": "fledge lanes run verify",
+            "success": true,
+            "exit_code": 0
+          }
+        ],
+        "requirement_ids": [
+          "REQ-comic-page-001",
+          "REQ-comic-page-002",
+          "REQ-comic-page-003",
+          "REQ-comic-page-004"
+        ]
+      },
+      "stale_acceptance_input_digest": "6afd39101c13b06cb843f9d596f8ddf4a37f20af94cd88ff48eccbb48076b1c0",
+      "current_acceptance_input_digest": "16db5ce2a68cb5baedd271fb760be232201f0e5a2f2547af8f73126f0ae71f4f"
+    },
+    {
+      "schema_version": 1,
+      "change_id": "CHG-0003-define-the-existing-captain-corvid-comic-page-as-a-complete-canonical-contract",
+      "actor": "user:0xLeif",
+      "reason": "Non-semantic review restored the precise existing acceptance criteria and repaired the generated three-column Change Log row without changing product behavior or requirement meaning.",
+      "timestamp": 1784019519,
+      "from_state": "accepted",
+      "to_state": "verifying",
+      "superseded_approval": {
+        "gate": "acceptance",
+        "actor": "user:0xLeif",
+        "timestamp": 1784019467,
+        "digest": "df53e9640e7a993656c4ee8510f5aa792d6a44cdb26de7a6180ddfc433855258",
+        "note": "Fresh closing approval after the non-semantic companion formatting correction and complete native plus measured 100 percent verification passed."
+      },
+      "prior_verification": {
+        "timestamp": 1784019455,
+        "commit": "5a4bfbac8d8204fcda27c6ea1bf94e2d21a6d355",
+        "contract_digest": "61d6c937f81154226ea6dda63a13086b58351e231ca02b84ac285d0681e7506f",
+        "workspace_digest": "cbe113da7bc7ee24b53f443e97541bf941af19f841afb73974a9691aced9aec4",
+        "acceptance_input_digest": "16db5ce2a68cb5baedd271fb760be232201f0e5a2f2547af8f73126f0ae71f4f",
+        "passed": true,
+        "commands": [
+          {
+            "command": "fledge lanes run verify",
+            "success": true,
+            "exit_code": 0
+          }
+        ],
+        "requirement_ids": [
+          "REQ-comic-page-001",
+          "REQ-comic-page-002",
+          "REQ-comic-page-003",
+          "REQ-comic-page-004"
+        ]
+      },
+      "stale_acceptance_input_digest": "16db5ce2a68cb5baedd271fb760be232201f0e5a2f2547af8f73126f0ae71f4f",
+      "current_acceptance_input_digest": "db22bc8a7eb9789eadcd8159beb7fba80aa8d95a914ef8160230b04b95673fc3"
+    }
+  ]
+}

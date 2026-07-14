@@ -1,0 +1,18 @@
+{
+  "approvals": [
+    {
+      "gate": "definition",
+      "actor": "user:0xLeif",
+      "timestamp": 1784003022,
+      "digest": "3df3bb150f10055e72443f3d5debfa045139a5def5b5c50bbba78f289e231c19",
+      "note": "Definition approved for the migration-only rollout after exact inventory and accurate contract review."
+    },
+    {
+      "gate": "acceptance",
+      "actor": "user:0xLeif",
+      "timestamp": 1784019322,
+      "digest": "2bd5a26bc0430536639e93019bf0352d21bb26f89dc06d8465db5415f5e31ccf",
+      "note": "Closing approval after the complete existing comic contract, four agent integrations, deterministic native validation, and measured 100 percent coverage passed."
+    }
+  ]
+}

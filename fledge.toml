@@ -3,6 +3,16 @@ page = "test -s landing/index.html"
 chapter-1 = "test -s landing/captain-corvid-chapter-1.png"
 chapter-2 = "test -s landing/captain-corvid-chapter-2.png"
 chapter-3 = "test -s landing/captain-corvid-chapter-3.png"
+identity = "grep -Fq '<title>The Adventures of Captain Corvid</title>' landing/index.html && grep -Fq 'From Subscription Hostage to Digital Hero!' landing/index.html"
+chapters = "grep -Fq 'Chapter 1: The Great Subscription Catastrophe!' landing/index.html && grep -Fq 'Chapter 2: The Birth of a Subscription Superhero!' landing/index.html && grep -Fq 'Chapter 3: The Nevermore Alliance' landing/index.html && grep -Fq 'To be continued...' landing/index.html"
+narrative = "grep -Fq 'Subscriptus Exhausticus' landing/index.html && grep -Fq 'Nevermore NFT Collection' landing/index.html && grep -Fq \"'Nevermore Alliance,'\" landing/index.html && grep -Fq 'Join the subscription liberation!' landing/index.html"
+accessibility = "grep -Fq 'alt=\"A stressed raven surrounded by glowing, expensive app subscription icons.\"' landing/index.html && grep -Fq 'alt=\"A heroic raven transforming into a superhero with a glowing NFT cape.\"' landing/index.html && grep -Fq 'alt=\"Captain Corvid leading a group of digital avatars breaking chains labeled with dollar signs.\"' landing/index.html"
+dependencies = "grep -Fq 'cdn.tailwindcss.com' landing/index.html && grep -Fq 'fonts.googleapis.com' landing/index.html"
+specsync = "specsync check --strict --require-coverage 100 --force"
 [lanes.verify]
-description = "Validate the comic page and its deployed chapter assets"
-steps = ["page", "chapter-1", "chapter-2", "chapter-3"]
+description = "Validate the comic page, narrative, accessibility, dependencies, and deployed chapter assets"
+steps = ["page", "chapter-1", "chapter-2", "chapter-3", "identity", "chapters", "narrative", "accessibility", "dependencies"]
+
+[lanes.ci]
+description = "Run native comic validation and the strict SpecSync contract"
+steps = ["page", "chapter-1", "chapter-2", "chapter-3", "identity", "chapters", "narrative", "accessibility", "dependencies", "specsync"]

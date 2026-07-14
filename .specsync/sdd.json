@@ -27,7 +27,7 @@
     ".specsync/version"
   ],
   "ignored_paths": [],
-  "verification_commands": ["test -s landing/index.html", "test -s landing/captain-corvid-chapter-1.png", "test -s landing/captain-corvid-chapter-2.png", "test -s landing/captain-corvid-chapter-3.png"],
+  "verification_commands": ["fledge lanes run verify"],
   "custom_artifacts": {},
   "principles_file": null
 }

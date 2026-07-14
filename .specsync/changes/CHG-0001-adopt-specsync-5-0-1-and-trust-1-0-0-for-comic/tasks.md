@@ -8,4 +8,4 @@ artifact: tasks
 - [x] Add governance.
 - [x] Install agent integrations.
 - [x] Validate static content.
-- [ ] Obtain owner approvals.
+- [x] Configure the change workspace for definition and closing approval at the corresponding lifecycle gates.

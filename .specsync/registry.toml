@@ -1,3 +1,6 @@
 [registry]
 name = "comic"
 [specs]
+[specs.comic-page]
+path = "specs/comic-page/comic-page.spec.md"
+status = "active"

@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "CHG-0003-define-the-existing-captain-corvid-comic-page-as-a-complete-canonical-contract",
+  "slug": "define-the-existing-captain-corvid-comic-page-as-a-complete-canonical-contract",
+  "title": "Define the existing Captain Corvid comic page as a complete canonical contract",
+  "description": "Define the existing Captain Corvid comic page as a complete canonical contract",
+  "kind": "documentation",
+  "state": "implementing",
+  "base_commit": "03d079d8f18667ccba823c578d5edc62b7b47cee",
+  "created_at": 1784002837,
+  "updated_at": 1784003023,
+  "affected_specs": [
+    "comic-page"
+  ],
+  "affected_paths": [
+    "landing/index.html",
+    "specs/comic-page/comic-page.spec.md",
+    "specs/comic-page/requirements.md",
+    "specs/comic-page/testing.md",
+    ".specsync/change-sequence.json"
+  ],
+  "no_spec_change": false,
+  "no_spec_change_rationale": null,
+  "acceptance_criteria": [
+    "The canonical comic-page spec exactly describes the existing static page; every requirement has deterministic native evidence; landing/index.html has 100% canonical coverage; no comic HTML or image bytes change"
+  ],
+  "selected_artifacts": [
+    "context",
+    "docs",
+    "design",
+    "tasks"
+  ],
+  "dependencies": [],
+  "answers": {
+    "architecture_risk": "no",
+    "public_contract": "no"
+  }
+}

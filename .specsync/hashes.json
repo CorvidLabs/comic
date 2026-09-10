@@ -1,9 +1,21 @@
 {
+  "format_version": 1,
   "hashes": {
-    "specs/comic-page/requirements.md": "a5565dffcdc2fade0ceee5e88edac3c52359611e6a3efe089c02bf61d7718070",
-    "specs/comic-page/testing.md": "ab74559ca8bd1f378aa921d6837934c7c0cc9094caa31ba48ff6bf2d5549481d",
     ".specsync/config.toml": "9b72192907cb3cb687707322c21bce8c2cd42a0adf2a2a07cb61c69433f07458",
+    "landing/index.html": "9fd6a110bb48daf812b786696a8456facbd16bb5fa88f1c1d04f014d21208bdd",
     "specs/comic-page/comic-page.spec.md": "423b846285d5c2d1596ea63242ddc0900eb5930117e2a79edf756f7e56afe6b1",
-    "landing/index.html": "9fd6a110bb48daf812b786696a8456facbd16bb5fa88f1c1d04f014d21208bdd"
+    "specs/comic-page/requirements.md": "a5565dffcdc2fade0ceee5e88edac3c52359611e6a3efe089c02bf61d7718070",
+    "specs/comic-page/testing.md": "ab74559ca8bd1f378aa921d6837934c7c0cc9094caa31ba48ff6bf2d5549481d"
+  },
+  "snapshots": {
+    "specs/comic-page/comic-page.spec.md": {
+      "snapshot_version": 1,
+      "spec_path": "specs/comic-page/comic-page.spec.md",
+      "errors": [],
+      "warnings": [],
+      "notices": [],
+      "input_digest": "2362b08f8952cac7e505c2e9da1c09a4dc511b3ad6e867646a7929eb67cf6097",
+      "snapshot_digest": "685b26ee44f8206b73822184392d7bdb76aa995fdf61d5eb01e4695bd67fbc37"
+    }
   }
 }
